@@ -1,0 +1,7 @@
+﻿  main.cpp
+D:\stCa\stringCal\stringCal\defaultCal.h(34,20): warning C4101: i: неиспользованная локальная переменная
+  Создание кода
+  Previous IPDB not found, fall back to full compilation.
+  All 135 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Создание кода завершено
+  stringCal.vcxproj -> D:\stCa\stringCal\Release\stringCal.exe

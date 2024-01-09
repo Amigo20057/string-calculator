@@ -3,6 +3,7 @@
 #include"include.h"
 
 const double pi = acos(-1);
+double ctg(double x);
 
 struct leksema {
     char type;
@@ -14,7 +15,6 @@ class stringCalculator {
 private:
     char ch;
 public:
-    double ctg(double x);
 
     bool math(std::stack<leksema>& StackN, std::stack<leksema>& StackO, leksema& it) {
         double a, b, res;
@@ -273,10 +273,11 @@ public:
         return 0;
     }
 
-    double ctg(double x) {
-        double a = cos(x);
-        double b = sin(x);
-        return (a / b);
-    }
+
 };
 
+double ctg(double x) {
+    double a = cos(x);
+    double b = sin(x);
+    return (a / b);
+}

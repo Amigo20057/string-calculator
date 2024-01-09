@@ -1,4 +1,4 @@
-# THIS IS A LINEAR CALCULATOR       
+# THIS IS A STRING CALCULATOR       
 ## Supported Operations
 Basic arithmetic operations: +, -, *, /
 
